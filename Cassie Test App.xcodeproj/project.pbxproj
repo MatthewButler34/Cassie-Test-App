@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345685A12AA63D770060017A /* Cassie_Test_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345685A02AA63D770060017A /* Cassie_Test_AppApp.swift */; };
+		345685A32AA63D770060017A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345685A22AA63D770060017A /* ContentView.swift */; };
+		345685A52AA63D780060017A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345685A42AA63D780060017A /* Assets.xcassets */; };
+		345685A82AA63D780060017A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345685A72AA63D780060017A /* Preview Assets.xcassets */; };
+		345685B22AA63D780060017A /* Cassie_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345685B12AA63D780060017A /* Cassie_Test_AppTests.swift */; };
+		345685BC2AA63D780060017A /* Cassie_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345685BB2AA63D780060017A /* Cassie_Test_AppUITests.swift */; };
+		345685BE2AA63D780060017A /* Cassie_Test_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345685BD2AA63D780060017A /* Cassie_Test_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345685AE2AA63D780060017A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345685952AA63D770060017A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3456859C2AA63D770060017A;
+			remoteInfo = "Cassie Test App";
+		};
+		345685B82AA63D780060017A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345685952AA63D770060017A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3456859C2AA63D770060017A;
+			remoteInfo = "Cassie Test App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3456859D2AA63D770060017A /* Cassie Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cassie Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345685A02AA63D770060017A /* Cassie_Test_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassie_Test_AppApp.swift; sourceTree = "<group>"; };
+		345685A22AA63D770060017A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		345685A42AA63D780060017A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345685A72AA63D780060017A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		345685AD2AA63D780060017A /* Cassie Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cassie Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345685B12AA63D780060017A /* Cassie_Test_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassie_Test_AppTests.swift; sourceTree = "<group>"; };
+		345685B72AA63D780060017A /* Cassie Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cassie Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345685BB2AA63D780060017A /* Cassie_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassie_Test_AppUITests.swift; sourceTree = "<group>"; };
+		345685BD2AA63D780060017A /* Cassie_Test_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassie_Test_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3456859A2AA63D770060017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685AA2AA63D780060017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685B42AA63D780060017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345685942AA63D770060017A = {
+			isa = PBXGroup;
+			children = (
+				3456859F2AA63D770060017A /* Cassie Test App */,
+				345685B02AA63D780060017A /* Cassie Test AppTests */,
+				345685BA2AA63D780060017A /* Cassie Test AppUITests */,
+				3456859E2AA63D770060017A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3456859E2AA63D770060017A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3456859D2AA63D770060017A /* Cassie Test App.app */,
+				345685AD2AA63D780060017A /* Cassie Test AppTests.xctest */,
+				345685B72AA63D780060017A /* Cassie Test AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3456859F2AA63D770060017A /* Cassie Test App */ = {
+			isa = PBXGroup;
+			children = (
+				345685A02AA63D770060017A /* Cassie_Test_AppApp.swift */,
+				345685A22AA63D770060017A /* ContentView.swift */,
+				345685A42AA63D780060017A /* Assets.xcassets */,
+				345685A62AA63D780060017A /* Preview Content */,
+			);
+			path = "Cassie Test App";
+			sourceTree = "<group>";
+		};
+		345685A62AA63D780060017A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				345685A72AA63D780060017A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		345685B02AA63D780060017A /* Cassie Test AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				345685B12AA63D780060017A /* Cassie_Test_AppTests.swift */,
+			);
+			path = "Cassie Test AppTests";
+			sourceTree = "<group>";
+		};
+		345685BA2AA63D780060017A /* Cassie Test AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345685BB2AA63D780060017A /* Cassie_Test_AppUITests.swift */,
+				345685BD2AA63D780060017A /* Cassie_Test_AppUITestsLaunchTests.swift */,
+			);
+			path = "Cassie Test AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3456859C2AA63D770060017A /* Cassie Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345685C12AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test App" */;
+			buildPhases = (
+				345685992AA63D770060017A /* Sources */,
+				3456859A2AA63D770060017A /* Frameworks */,
+				3456859B2AA63D770060017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cassie Test App";
+			productName = "Cassie Test App";
+			productReference = 3456859D2AA63D770060017A /* Cassie Test App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345685AC2AA63D780060017A /* Cassie Test AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345685C42AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test AppTests" */;
+			buildPhases = (
+				345685A92AA63D780060017A /* Sources */,
+				345685AA2AA63D780060017A /* Frameworks */,
+				345685AB2AA63D780060017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345685AF2AA63D780060017A /* PBXTargetDependency */,
+			);
+			name = "Cassie Test AppTests";
+			productName = "Cassie Test AppTests";
+			productReference = 345685AD2AA63D780060017A /* Cassie Test AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345685B62AA63D780060017A /* Cassie Test AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345685C72AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test AppUITests" */;
+			buildPhases = (
+				345685B32AA63D780060017A /* Sources */,
+				345685B42AA63D780060017A /* Frameworks */,
+				345685B52AA63D780060017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345685B92AA63D780060017A /* PBXTargetDependency */,
+			);
+			name = "Cassie Test AppUITests";
+			productName = "Cassie Test AppUITests";
+			productReference = 345685B72AA63D780060017A /* Cassie Test AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345685952AA63D770060017A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3456859C2AA63D770060017A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					345685AC2AA63D780060017A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3456859C2AA63D770060017A;
+					};
+					345685B62AA63D780060017A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3456859C2AA63D770060017A;
+					};
+				};
+			};
+			buildConfigurationList = 345685982AA63D770060017A /* Build configuration list for PBXProject "Cassie Test App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345685942AA63D770060017A;
+			productRefGroup = 3456859E2AA63D770060017A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3456859C2AA63D770060017A /* Cassie Test App */,
+				345685AC2AA63D780060017A /* Cassie Test AppTests */,
+				345685B62AA63D780060017A /* Cassie Test AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3456859B2AA63D770060017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345685A82AA63D780060017A /* Preview Assets.xcassets in Resources */,
+				345685A52AA63D780060017A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685AB2AA63D780060017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685B52AA63D780060017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345685992AA63D770060017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345685A32AA63D770060017A /* ContentView.swift in Sources */,
+				345685A12AA63D770060017A /* Cassie_Test_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685A92AA63D780060017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345685B22AA63D780060017A /* Cassie_Test_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345685B32AA63D780060017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345685BE2AA63D780060017A /* Cassie_Test_AppUITestsLaunchTests.swift in Sources */,
+				345685BC2AA63D780060017A /* Cassie_Test_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345685AF2AA63D780060017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3456859C2AA63D770060017A /* Cassie Test App */;
+			targetProxy = 345685AE2AA63D780060017A /* PBXContainerItemProxy */;
+		};
+		345685B92AA63D780060017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3456859C2AA63D770060017A /* Cassie Test App */;
+			targetProxy = 345685B82AA63D780060017A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345685BF2AA63D780060017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345685C02AA63D780060017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345685C22AA63D780060017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cassie Test App/Preview Content\"";
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345685C32AA63D780060017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cassie Test App/Preview Content\"";
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		345685C52AA63D780060017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassie Test App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cassie Test App";
+			};
+			name = Debug;
+		};
+		345685C62AA63D780060017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassie Test App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cassie Test App";
+			};
+			name = Release;
+		};
+		345685C82AA63D780060017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cassie Test App";
+			};
+			name = Debug;
+		};
+		345685C92AA63D780060017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y82Q98RM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IDH1.Cassie-Test-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cassie Test App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345685982AA63D770060017A /* Build configuration list for PBXProject "Cassie Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345685BF2AA63D780060017A /* Debug */,
+				345685C02AA63D780060017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345685C12AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345685C22AA63D780060017A /* Debug */,
+				345685C32AA63D780060017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345685C42AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345685C52AA63D780060017A /* Debug */,
+				345685C62AA63D780060017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345685C72AA63D780060017A /* Build configuration list for PBXNativeTarget "Cassie Test AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345685C82AA63D780060017A /* Debug */,
+				345685C92AA63D780060017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345685952AA63D770060017A /* Project object */;
+}
